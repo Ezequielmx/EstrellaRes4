@@ -1,0 +1,34 @@
+Modificaciones 31/10
+
+composer require laravel/jetstream
+
+php artisan jetstream:install livewire --teams
+
+Instale node.js
+
+https://nodejs.org/es/download/
+
+npm install
+
+npm run dev
+
+php artisan migrate
+
+cree la BD con utf8mb4_general_ci
+
+cree un dominio estrella.test (video 24 min 10:15)
+
+Cuando quiero entrar a estrella.test/admin. Me tira este error:
+
+ErrorException
+Attempt to read property "lugar" on null (View: C:\xampp\htdocs\facu\est2\resources\views\eventos\show.blade.php)
+
+Para usar adminlte
+
+composer require jeroennoten/laravel-adminlte
+
+php artisan adminlte:install
+
+
+7/11-----------------------------APi GOOGLE SHEETS
+composer require google/apiclient
